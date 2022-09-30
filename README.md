@@ -1,4 +1,4 @@
-#Product Details Landing Page
+# Product Details Landing Page
 
 ### In this mini project, I am replicating a design from a FrontEnd Mentor Challenge to test my CSS Skills.
 
