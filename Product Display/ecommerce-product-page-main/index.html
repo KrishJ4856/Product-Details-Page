@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script>
+  <title>E-commerce product page</title>
+
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div id="header">
+    <img src="./images/logo.svg" alt="Logo" id="logo">
+    <div id="navbar">
+      <div id="item1" class="item">Collection</div>
+      <div id="item2" class="item">Men</div>
+      <div id="item3" class="item">Women</div>
+      <div id="item4" class="item">About</div>
+      <div id="item5" class="item">Contact</div>
+    </div>
+    <div id="sidenav">
+      <img src="./images/icon-cart.svg" alt="Cart">
+      <img src="./images/image-avatar.png" alt="Profile" id="avatar">
+    </div>
+  </div>
+  <div id="line"></div>
+
+  <div id="main-body">
+    <div id="product-visual">
+      <div id="main-img">
+        <img src="./images/image-product-1.jpg">
+      </div>
+      <div id="slide-img">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="">
+        <img src="./images/image-product-2-thumbnail.jpg" alt="">
+        <img src="./images/image-product-3-thumbnail.jpg" alt="">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="">
+      </div>
+    </div>
+    <div id="product-detail">
+      <h3>SNEAKER COMPANY</h3>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p id="info">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="detail" id="price">
+        <h3>$125.00</h3>
+        <div id="disc">50%</div>
+      </div>
+      <div class="detail" id="purchase">
+        <div id="quantity">
+          <img src="./images/icon-minus.svg" alt="-" id="minus">
+          <div id="input">0</div>
+          <img src="./images/icon-plus.svg" alt="+" id="add">
+        </div>
+        <button>
+          <img src="./images/icon-cart.svg"> Add To Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

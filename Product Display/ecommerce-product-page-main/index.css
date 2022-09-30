@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    min-width: 1000px;
+    min-height: 100vh;
+}
+#header{
+    display: flex;
+    width: 1300px;
+    height: 100px;
+    align-items: center;
+    margin-left: 100px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 490px;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+#sidenav{
+    width: 200px;
+    position: relative;
+    left: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#avatar{
+    width: 50px;
+}
+.item{
+    cursor: pointer;
+}
+.item:hover{
+    font-weight: bolder;
+}
+#line{
+    background-color: gray;
+    height: 1px;
+    width: 1300px;
+    position: relative;
+    border-radius: 90%;
+    left: 100px;
+}
+#main-body{
+    height: 600px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 350px;
+    margin-top: 100px;
+}
+#product-visual{
+    height: 500px;
+    width: 400px;
+}
+#main-img{
+    width: 300px;
+    height: 350px;
+}
+#main-img img{
+    width: 300px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+#slide-img{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 15px;
+}
+#slide-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+#slide-img img:hover{
+    /* border: 2px solid goldenrod; */
+    cursor: pointer;
+    box-shadow: 0 0 0px 3px goldenrod;
+}
+#product-detail{
+    height: 500px;
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#product-detail h3{
+    color: goldenrod;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#product-detail h1{
+    margin-bottom: 25px;
+}
+#product-detail p{
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+}
+#price h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+#disc{
+    width: 35px;
+    height: 20px;
+    color: goldenrod;
+    background-color: rgb(255, 237, 192);
+    font-weight: bolder;
+    font-size: 14px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+    border-radius: 5px;
+    text-align: center;
+}
+#price::after{
+    content: "$250";
+    position: relative;
+    top: 25px;
+    left: -125px;
+    font-weight: bold;
+}
+#purchase{
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+}
+#quantity{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+#quantity img{
+    width: 15px;
+    height: 15px;
+}
+#minus{
+    position: relative;
+    left: -20px;
+}
+#add{
+    position: relative;
+    left: 25px;
+}
+#purchase button{
+    color: white;
+    background-color: orange;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#purchase button:hover{
+    font-weight: bolder;
+
+}
+#purchase button img{
+    position: relative;
+    left: -10px
+}
