@@ -119,6 +119,8 @@ body{
     flex-direction: row;
     align-items: center;
     height: 70px;
+    overflow: visible;
+    z-index: 99999;
 }
 #price h3{
     font-weight: bold;
@@ -138,12 +140,12 @@ body{
     border-radius: 5px;
     text-align: center;
 }
-#price::after{
-    content: "$250";
+#orig_price{
     position: relative;
-    top: 25px;
-    left: -125px;
+    left: 5px;
+    top: -20px;
     font-weight: bold;
+    width: 150px;
 }
 #purchase{
     position: relative;
@@ -167,6 +169,7 @@ body{
 #quantity img{
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 #minus{
     position: relative;
@@ -198,4 +201,23 @@ body{
 #purchase button img{
     position: relative;
     left: -10px
+}
+#avatar:hover{
+    border: 2px solid gold;
+    border-radius: 50px;
+}
+.cart{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+    position: relative;
+    left: 1100px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+#cart-logo{
+    border-bottom: 1px solid black;
 }

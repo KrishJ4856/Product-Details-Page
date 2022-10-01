@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./index.css">
-  <script src="./index.js"></script>
+  <script defer src="./index.js"></script>
   <title>E-commerce product page</title>
 
   <!-- <style>
@@ -27,11 +27,15 @@
       <div id="item5" class="item">Contact</div>
     </div>
     <div id="sidenav">
-      <img src="./images/icon-cart.svg" alt="Cart">
+      <img src="./images/icon-cart.svg" alt="Cart" id="cartIcon">
       <img src="./images/image-avatar.png" alt="Profile" id="avatar">
     </div>
   </div>
   <div id="line"></div>
+  <div class="cart">
+    <div id="cart-logo">Cart</div>
+    <div id="element">Your Cart Is Empty</div>
+   </div>
 
   <div id="main-body">
     <div id="product-visual">
@@ -51,9 +55,10 @@
       <p id="info">These low-profile sneakers are your perfect casual wear companion. Featuring a 
       durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
       <div class="detail" id="price">
-        <h3>$125.00</h3>
+        <h3>$125</h3>
         <div id="disc">50%</div>
       </div>
+      <div id="orig_price">$250</div>
       <div class="detail" id="purchase">
         <div id="quantity">
           <img src="./images/icon-minus.svg" alt="-" id="minus">
